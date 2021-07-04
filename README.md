@@ -11,7 +11,7 @@ OpenCore bootloader (yes, Clover shit) that makes your HP Hamar-powered PC (510-
 * Expansion Slots: 1x PCI-E (GEN 3) x16 socket and 1x M.2 socket 1, key A
 * 1x HDMI, 2x USB 3.0, 2x USB 2.0 (and another 2x USB 2.0 at the front if HP case are properly installed), 1x VGA (doesn't work in macOS), 1x HDMI, 3x Audio Ports (In, Out and Mic) and 1x Headphone at the front if HP case are properly installed.
 
-**For more detailed info please visit https://support.hp.com/si-en/document/c05160471**
+**For more detailed info please visit https://support.hp.com/us-en/document/c05066299**
 ## Tested hardware:
 **HP Pavilion Desktop 510-p007l (My main desktop PC)**
 * CPU: Intel® Pentium® G4400T (fake ID required)
