@@ -1,5 +1,7 @@
 # HP Hamar Motherboard - macOS High Sierra and Up
 OpenCore bootloader (yes, Clover shit) that makes your HP Hamar-powered PC (510-P and 260-P Series) runs macOS High Sierra and up!
+![image](https://user-images.githubusercontent.com/73286927/124376310-a2f1dc80-dcd0-11eb-8e14-2933eccf8746.png)
+
 ## Motherboard Specs:
 ![image](https://user-images.githubusercontent.com/73286927/124374625-18f14600-dcc7-11eb-8365-b0313750ff68.png)
 * HP/Compaq name: Hamar
