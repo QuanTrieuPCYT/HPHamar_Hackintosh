@@ -8,6 +8,7 @@ OpenCore bootloader (yes, Clover shit) that makes your HP Hamar-powered PC (510-
 * SSD: KingSpec P4-120 120GB SATA SSD (Windows 11)
 * HDD: WD Blue WD10EZEX 1TB
 Runs macOS High Sierra (10.13.6) perfectly (with NVIDIA Web Driver).
+
 ###HP Slimline Desktop - 260-p026 (ENERGY STAR)
 * CPU: Intel® Core™ i3-6100T
 * RAM: 2x 8GB DDR4 2133MHz
