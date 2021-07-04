@@ -10,12 +10,14 @@ OpenCore bootloader (yes, Clover shit) that makes your HP Hamar-powered PC (510-
 * Ethernet: Realtek RTL8161
 * Expansion Slots: 1x PCI-E (GEN 3) x16 socket and 1x M.2 socket 1, key A
 * 1x HDMI, 2x USB 3.0, 2x USB 2.0 (and another 2x USB 2.0 at the front if HP case is properly installed), 1x VGA (doesn't work in macOS), 1x HDMI, 3x Audio Ports (In, Out and Mic) and 1x Headphone at the front if HP case is properly installed.
+
+**For more detailed info please visit https://support.hp.com/us-en/document/c05066299**
 ## Note:
 * G3900T and G4400T users (like me) will need to fakeID their CPU, use a discrete GPU supported in macOS (Intel GT1 iGPU on Celeron and Pentium chips won't gonna work in macOS) and will also need to deal with compatibility issues.
 * The Realtek Wi-Fi card that came with most of these 510-P and 260-P series PCs will not gonna work in macOS, so you'll need another card for wireless functionality (Intel or Broadcom M2 cards).
 * Work is still in progress for the SD Card Reader.
-
-**For more detailed info please visit https://support.hp.com/us-en/document/c05066299**
+* DRM won't work on iGPU-only systems, so you will need a supported dGPU.
+* If your machine came with a dGPU installed, check if it supports macOS, if not then you will need to use your iGPU instead (if it's GT2, GT1 no macOS support as i said earlier). Maxwell and Pascal (maybe Fermi and Tesla) can use their GPU in 10.12 and 10.13 but not 10.14+ and Kepler users can go up to Monterey.
 ## Tested hardware:
 **HP Pavilion Desktop 510-p007l (My main desktop PC)**
 * CPU: Intel® Pentium® G4400T (fake ID required)
