@@ -20,7 +20,7 @@ On Windows press Win+R and type `msinfo32.exe` and scroll down til you can see u
 * Update to the latest BIOS version plz (F.42 Rev.A as of 04/07/2021)
 * G3900T and G4400T users (like me) will need to fakeID their CPU, use a discrete GPU supported in macOS (Intel GT1 iGPU on Celeron and Pentium chips won't gonna work in macOS) and will also need to deal with compatibility issues.
 * The Realtek Wi-Fi card that came with most of these 510-P and 260-P series PCs will not gonna work in macOS, so you'll need another card for wireless functionality (Intel or Broadcom M2 cards).
-* Work is still in progress for the SD Card Reader.
+* Work is still in progress for sleep and the SD Card Reader.
 * DRM won't work on iGPU-only systems, so you will need a supported dGPU.
 * If your machine came with a dGPU installed, check if it supports macOS, if not then you will need to use your iGPU instead (if it's GT2, GT1 no macOS support as i said earlier). Maxwell and Pascal (maybe Fermi and Tesla) can use their GPU in 10.12 and 10.13 but not 10.14+ and Kepler users can go up to Monterey.
 ## Tested hardware:
@@ -35,6 +35,16 @@ On Windows press Win+R and type `msinfo32.exe` and scroll down til you can see u
 **HP Slimline Desktop - 260-p026 (ENERGY STAR)**
 * CPU: Intel® Core™ i3-6100T
 * RAM: 2x 8GB DDR4 2133MHz
-* GPU: Intel HD Graphics 530 (GT2)
+* GPU: GTX 650
 * SSD: Kingston SSDNow V300 120GB SATA SSD
 * **Runs macOS Catalina & Big Sur perfectly.**
+
+## ✅ Whats workin'
+* Graphics acceleration on GT2 iGPUs (HD 530), dGPU (GTX 1050 on 10.13.6, GTX 650 on Monterey
+* USB 2.0 and 3.0
+* Ethernet
+* Audio
+## ❌ Not workin'
+* SD Card (kinda, buggy)
+* Sleep & Wake
+* **You tell me**
