@@ -10,6 +10,9 @@ OpenCore bootloader (yes, Clover shit) that makes your HP Hamar-powered PC (510-
 * Ethernet: Realtek RTL8161
 * Expansion Slots: 1x PCI-E (GEN 3) x16 socket and 1x M.2 socket 1, key A
 * 1x HDMI, 2x USB 3.0, 2x USB 2.0 (and another 2x USB 2.0 at the front if HP case is properly installed), 1x VGA (doesn't work in macOS), 1x HDMI, 3x Audio Ports (In, Out and Mic) and 1x Headphone at the front if HP case is properly installed.
+## Note:
+* The Realtek Wi-Fi card that came with most of these 510-P and 260-P series PCs will not gonna work in macOS, so you'll need another card for wireless functionality (Intel or Broadcom M2 cards)
+* Work is still in progress for the SD Card Reader.
 
 **For more detailed info please visit https://support.hp.com/us-en/document/c05066299**
 ## Tested hardware:
