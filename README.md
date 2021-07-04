@@ -18,8 +18,8 @@ OpenCore bootloader (yes, Clover just didn't work) that makes your HP Hamar-powe
 **For more detailed info please visit https://support.hp.com/us-en/document/c05066299**
 
 ## How to check if my motherboard is compatible?
-If your HP model name is identical to 510-PXXX(letter) or 260-PXXX(letter) then it's compatible.
-On Windows press Win+R and type `msinfo32.exe` and scroll down til you can see ur BaseBoard Product. If it's 81B4 then congrats!
+* **Method 1:** If your HP model name is identical to 510-PXXX(letter) or 260-PXXX(letter) then it's compatible.
+* **Method 2:** On Windows press Win+R and type `msinfo32.exe` and scroll down til you can see ur BaseBoard Product. If it's 81B4 then congrats!
 
 ## Note:
 * Update to the latest BIOS version plz (F.42 Rev.A as of 04/07/2021)
