@@ -48,7 +48,7 @@ On Windows press Win+R and type `msinfo32.exe` and scroll down til you can see u
 * USB 2.0 and 3.0 (all)
 * Ethernet
 * Audio
-* SD Card slot (works seamlessly)
+* SD Card slot (macOS detects it as a normal USB 2.0 device, not a PCIE card reader so it will work just fine)
 ## ❌ Not workin'
 * Sleep & Wake
 * **You tell me**
