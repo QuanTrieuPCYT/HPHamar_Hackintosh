@@ -53,3 +53,11 @@ OpenCore bootloader (yes, Clover just didn't work) that makes your HP Hamar-powe
 * iServices (using **this guide: https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html**)
 ## ❌ Not workin'
 * **You tell me**
+* 
+## Credits
+* [Apple](https://apple.com) for macOS
+* [acidanthera](https://github.com/acidanthera) for OpenCore, Lilu, WhateverGreen and AppleALC
+* [RehabMan](https://github.com/RehabMan) for USBInjectAll (without this kext i will not be able to map USB)
+* [headkaze](https://github.com/headkaze) for Hackintool
+* [NVIDIA](https://nvidia.com) for NVIDIA Web Drivers
+* And special thanks to [ozonefire](https://www.reddit.com/user/ozonefire1984) (ozonefire#0701) for helping me with the EFI (the fakeCPUID patch and more)!
