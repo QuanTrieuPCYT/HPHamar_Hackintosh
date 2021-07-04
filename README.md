@@ -44,10 +44,10 @@ On Windows press Win+R and type `msinfo32.exe` and scroll down til you can see u
 
 ## ✅ Whats workin'
 * Graphics acceleration on GT2 iGPUs (HD 530), dGPU (GTX 1050 on 10.13.6, GTX 650 on Monterey)
-* USB 2.0 and 3.0
+* USB 2.0 and 3.0 (all)
 * Ethernet
 * Audio
+* SD Card slot (works seamlessly)
 ## ❌ Not workin'
-* SD Card (kinda, buggy)
 * Sleep & Wake
 * **You tell me**
