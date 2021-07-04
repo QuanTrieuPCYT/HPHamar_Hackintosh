@@ -40,7 +40,7 @@ On Windows press Win+R and type `msinfo32.exe` and scroll down til you can see u
 * **Runs macOS Catalina & Big Sur perfectly.**
 
 ## ✅ Whats workin'
-* Graphics acceleration on GT2 iGPUs (HD 530), dGPU (GTX 1050 on 10.13.6, GTX 650 on Monterey
+* Graphics acceleration on GT2 iGPUs (HD 530), dGPU (GTX 1050 on 10.13.6, GTX 650 on Monterey)
 * USB 2.0 and 3.0
 * Ethernet
 * Audio
