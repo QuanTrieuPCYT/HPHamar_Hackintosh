@@ -18,17 +18,18 @@ OpenCore bootloader (yes, Clover just didn't work) that makes your HP Hamar-powe
 **For more detailed info please visit https://support.hp.com/us-en/document/c05066299**
 
 ## How to check if my motherboard is compatible?
+If your HP model name is identical to 510-PXXX(letter) or 260-PXXX(letter) then it's compatible.
 On Windows press Win+R and type `msinfo32.exe` and scroll down til you can see ur BaseBoard Product. If it's 81B4 then congrats!
 
 ## Note:
 * Update to the latest BIOS version plz (F.42 Rev.A as of 04/07/2021)
-* G3900T and G4400T users (like me) will need to fakeID their CPU, use a discrete GPU supported in macOS (Intel GT1 iGPU on Celeron and Pentium chips won't gonna work in macOS) and will also need to deal with compatibility issues.
+* G3900T and G4400T users (like me) will need to fakeID their CPU [(this guide here)](https://github.com/QuanTrieuPCYT/HPHamar_Hackintosh/blob/main/FakeID.md), use a discrete GPU supported in macOS (Intel GT1 iGPU on Celeron and Pentium chips won't gonna work in macOS) and will also need to deal with compatibility issues.
 * The Realtek Wi-Fi card that came with most of these 510-P and 260-P series PCs will not gonna work in macOS, so you'll need another card for wireless functionality (Intel or Broadcom M2 cards).
 * DRM won't work on iGPU-only systems, so you will need a supported dGPU.
 * If your machine came with a dGPU installed, check if it supports macOS, if not then you will need to use your iGPU instead (if it's GT2, GT1 no macOS support as i said earlier). Maxwell and Pascal (maybe Fermi and Tesla) can use their GPU in 10.12 and 10.13 but not 10.14+ and Kepler users can go up to Monterey.
 ## Tested hardware:
 **HP Pavilion Desktop 510-p007l (My main desktop PC)**
-* CPU: Intel® Pentium® G4400T (fake ID required)
+* CPU: Intel® Pentium® G4400T [(fake ID required)](https://github.com/QuanTrieuPCYT/HPHamar_Hackintosh/blob/main/FakeID.md)
 * RAM: 2x 4GB DDR4 2133MHz
 * GPU: GIGABYTE GTX 1050 2GB
 * SSD: KingSpec P4-120 120GB SATA SSD (Windows 11)
