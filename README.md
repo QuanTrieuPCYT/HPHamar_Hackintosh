@@ -37,7 +37,7 @@ On Windows press Win+R and type `msinfo32.exe` and scroll down til you can see u
 * RAM: 2x 8GB DDR4 2133MHz
 * GPU: GTX 650
 * SSD: Kingston SSDNow V300 120GB SATA SSD
-* **Runs macOS Catalina & Big Sur perfectly.**
+* **Runs macOS Catalina & Big Sur & Monterey perfectly.**
 
 ## ✅ Whats workin'
 * Graphics acceleration on GT2 iGPUs (HD 530), dGPU (GTX 1050 on 10.13.6, GTX 650 on Monterey)
