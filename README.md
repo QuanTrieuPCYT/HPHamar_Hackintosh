@@ -29,7 +29,7 @@ On Windows press Win+R and type `msinfo32.exe` and scroll down til you can see u
 * If your machine came with a dGPU installed, check if it supports macOS, if not then you will need to use your iGPU instead (if it's GT2, GT1 no macOS support as i said earlier). Maxwell and Pascal (maybe Fermi and Tesla) can use their GPU in 10.12 and 10.13 but not 10.14+ and Kepler users can go up to Monterey.
 ## Tested hardware:
 **HP Pavilion Desktop 510-p007l (My main desktop PC)**
-* CPU: Intel® Pentium® G4400T [(fake ID required)](https://github.com/QuanTrieuPCYT/HPHamar_Hackintosh/blob/main/FakeID.md)
+* CPU: Intel® Pentium® G4400T (fake ID required)
 * RAM: 2x 4GB DDR4 2133MHz
 * GPU: GIGABYTE GTX 1050 2GB
 * SSD: KingSpec P4-120 120GB SATA SSD (Windows 11)
