@@ -49,5 +49,6 @@ On Windows press Win+R and type `msinfo32.exe` and scroll down til you can see u
 * Audio
 * SD Card slot (macOS detects it as a normal USB 2.0 device, not a PCIE card reader so it will work just fine)
 * Sleep & Wake (now works with USB mapping)
+* iServices (using **this guide: https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html**)
 ## ❌ Not workin'
 * **You tell me**
