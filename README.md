@@ -11,6 +11,7 @@ OpenCore bootloader (yes, Clover shit) that makes your HP Hamar-powered PC (510-
 * Processor upgrade information: LGA 1151, accept the following CPU upgrades: `G3900T, G4400T, i3-6100T, i5-6400T and i7-6700T`
 * iGPU does not work if a graphics card is installed.
 * Ethernet: Realtek RTL8161
+* Audio: Realtek ALC867 (layout-id 11)
 * Expansion Slots: 1x PCI-E (GEN 3) x16 socket and 1x M.2 socket 1, key A
 * 1x HDMI, 2x USB 3.0, 2x USB 2.0 (and another 2x USB 2.0 at the front if HP case is properly installed), 1x VGA (doesn't work in macOS), 1x HDMI, 3x Audio Ports (In, Out and Mic) and 1x Headphone at the front if HP case is properly installed.
 
