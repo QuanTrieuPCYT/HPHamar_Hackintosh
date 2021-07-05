@@ -56,6 +56,26 @@ OpenCore bootloader (yes, Clover just didn't work) that makes your HP Hamar-powe
 * GT1 iGPU (Intel HD Graphics 510 on Celeron G3900T and Pentium G4400T)
 * **You tell me**
 
+## FAQ
+### I saw your EFI drivers folder and i saw `HfsPlusLegacy.efi`. Why would you use that?
+
+Try using the normal `HfsPlus.efi` or the OC-bundled `OpenHfsPlus.efi`. OpenCore will not boot (Clover also).
+I spent 4 weeks troubleshooting the issue and tried to replace HfsPlus.efi with HfsPlusLegacy.efi and turned out IT ACTUALLY WORKED!
+Maybe there's a bug that prevents `HfsPlus.efi`/`OpenHfsPlus.efi` from loading, well who knows. Let's just wait for a fix.
+
+### Can't use sleep and my CPU on my hack shows "Unknown"
+
+You are definitely a Celeron/Pentium user. Head over to [this page](https://github.com/QuanTrieuPCYT/HPHamar_Hackintosh/blob/main/FakeID.md) to apply the fixes.
+
+### How to disable verbose boot (those text thingy appear during boot) and use GUI and the Startup Chime?
+
+Remove `-v keepsyms=1	debug=0x100` from `boot-arg`
+And follow [this page](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html#setting-up-opencore-s-gui) for GUI and Boot Chime.
+
+### iServices just didn't work. What should i do?
+
+Follow [this page](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)
+
 ## Credits
 * [Apple](https://apple.com) for macOS
 * [acidanthera](https://github.com/acidanthera) for OpenCore, Lilu, WhateverGreen and AppleALC
@@ -64,3 +84,5 @@ OpenCore bootloader (yes, Clover just didn't work) that makes your HP Hamar-powe
 * [headkaze](https://github.com/headkaze) for Hackintool
 * [NVIDIA](https://nvidia.com) for NVIDIA Web Drivers
 * And special thanks to [ozonefire](https://www.reddit.com/user/ozonefire1984) (ozonefire#0701) for helping me with the EFI (the fakeCPUID patch and more)!
+
+And yes, have a good day!
