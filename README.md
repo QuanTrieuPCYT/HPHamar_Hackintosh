@@ -65,7 +65,7 @@ Maybe there's a bug that prevents `HfsPlus.efi`/`OpenHfsPlus.efi` from loading, 
 
 ### Can't use sleep and my CPU on my hack shows "Unknown"
 
-You are definitely a Celeron/Pentium user. Head over to [this page](https://github.com/QuanTrieuPCYT/HPHamar_Hackintosh/blob/main/FakeID.md) to apply the fixes.
+Told ya before. You are definitely a Celeron/Pentium user. Head over to [this page](https://github.com/QuanTrieuPCYT/HPHamar_Hackintosh/blob/main/FakeID.md) to apply the fixes.
 
 ### How to disable verbose boot (those text thingy appear during boot) and use GUI and the Startup Chime?
 
