@@ -52,6 +52,8 @@ OpenCore bootloader (yes, Clover just didn't work) that makes your HP Hamar-powe
 * Sleep & Wake (now works with USB mapping)
 * iServices (using **this guide: https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html**)
 ## ❌ Not workin'
+* iGPU not working when a dGPU is installed
+* GT1 iGPU (Intel HD Graphics 510 on Celeron G3900T and Pentium G4400T)
 * **You tell me**
 
 ## Credits
