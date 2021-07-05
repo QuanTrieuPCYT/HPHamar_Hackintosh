@@ -3,6 +3,10 @@ OpenCore bootloader (yes, Clover just didn't work) that makes your HP Hamar-powe
 
 ![Screen Shot 2021-07-05 at 3 05 08 AM](https://user-images.githubusercontent.com/73286927/124398075-f0f0f980-dd3d-11eb-9da7-4ef36910349a.png)
 
+And yes, don't worry, **your Hack can run Minecraft**.
+
+![mc-on-hackintosh.png](https://i.ibb.co/fpfTngH/mc-on-hackintosh.png)
+
 ## Motherboard Specs:
 ![image](https://user-images.githubusercontent.com/73286927/124374625-18f14600-dcc7-11eb-8365-b0313750ff68.png)
 * HP/Compaq name: Hamar
