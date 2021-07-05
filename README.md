@@ -60,7 +60,7 @@ OpenCore bootloader (yes, Clover just didn't work) that makes your HP Hamar-powe
 ### I saw your EFI drivers folder and i saw `HfsPlusLegacy.efi`. Why would you use that?
 
 Try using the normal `HfsPlus.efi` or the OC-bundled `OpenHfsPlus.efi`. OpenCore will not boot (Clover also).
-I spent 4 weeks troubleshooting the issue and tried to replace HfsPlus.efi with HfsPlusLegacy.efi and turned out IT ACTUALLY WORKED!
+I spent 4 weeks troubleshooting the issue and tried to replace `HfsPlus.efi` with `HfsPlusLegacy.efi` and turned out IT ACTUALLY WORKED!
 Maybe there's a bug that prevents `HfsPlus.efi`/`OpenHfsPlus.efi` from loading, well who knows. Let's just wait for a fix.
 
 ### Can't use sleep and my CPU on my hack shows "Unknown"
