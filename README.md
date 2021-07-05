@@ -5,8 +5,6 @@ OpenCore bootloader (yes, Clover just didn't work) that makes your HP Hamar-powe
 
 Also, **your Hack can run Minecraft**.
 
-![mc-on-hackintosh.png](https://i.ibb.co/fpfTngH/mc-on-hackintosh.png)
-
 ![Screen_Shot_2021-07-05_at_7.41.53_PM](https://media.discordapp.net/attachments/716245338691862589/861587765287452682/Screen_Shot_2021-07-05_at_7.41.53_PM.png)
 
 ## Motherboard Specs:
