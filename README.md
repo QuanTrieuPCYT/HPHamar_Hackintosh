@@ -70,6 +70,7 @@ Told ya before. You are definitely a Celeron/Pentium user. Head over to [this pa
 ### How to disable verbose boot (those text thingy appear during boot) and use GUI and the Startup Chime?
 
 Remove `-v keepsyms=1	debug=0x100` from `boot-arg`
+
 And follow [this page](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html#setting-up-opencore-s-gui) for GUI and Boot Chime.
 
 ### iServices just didn't work. What should i do?
