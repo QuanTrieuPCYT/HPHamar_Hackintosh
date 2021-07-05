@@ -84,6 +84,6 @@ Follow [this page](https://dortania.github.io/OpenCore-Post-Install/universal/is
 * [RehabMan](https://github.com/RehabMan) for USBInjectAll (without this kext i will not be able to map USB)
 * [headkaze](https://github.com/headkaze) for Hackintool
 * [NVIDIA](https://nvidia.com) for NVIDIA Web Drivers
-* And special thanks to [ozonefire](https://www.reddit.com/user/ozonefire1984) (ozonefire#0701) for helping me with the EFI (the fakeCPUID patch and more)!
+* And special thanks to [ozonefire1984](https://www.reddit.com/user/ozonefire1984) (ozonefire#0701) for helping me with the EFI (the fakeCPUID patch and more)!
 
 And yes, have a good day!
