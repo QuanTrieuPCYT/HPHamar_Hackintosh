@@ -54,6 +54,7 @@ OpenCore bootloader (yes, Clover just didn't work) that makes your HP Hamar-powe
 ## ❌ Not workin'
 * iGPU not working when a dGPU is installed
 * GT1 iGPU (Intel HD Graphics 510 on Celeron G3900T and Pentium G4400T)
+* Realtek Wireless card that came with most of 510-P and 260-P PCs.
 * **You tell me**
 
 ## FAQ
