@@ -59,6 +59,7 @@ Also, **your Hack can run Minecraft**.
 * iGPU not working when a dGPU is installed
 * GT1 iGPU (Intel HD Graphics 510 on Celeron G3900T and Pentium G4400T)
 * Realtek Wireless card that came with most of 510-P and 260-P PCs.
+* CPU Power Management (not something important but will be fixed in a future release)
 * **You tell me**
 
 ## FAQ
