@@ -63,6 +63,11 @@ Also, **your Hack can run Minecraft**.
 * **You tell me**
 
 ## FAQ
+### Why no Clover?
+
+OpenCore gives you real Mac experience. And it's easy to use too.
+I just, don't like Clover. I started Hackintoshing with OpenCore so yeh...
+
 ### I saw your EFI drivers folder and i saw `HfsPlusLegacy.efi`. Why would you use that?
 
 Try using the normal `HfsPlus.efi` or the OC-bundled `OpenHfsPlus.efi`. OpenCore will not boot (Clover also).
