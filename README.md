@@ -54,12 +54,12 @@ Also, **your Hack can run Minecraft**.
 * Audio
 * SD Card slot (macOS detects it as a normal USB 2.0 device, not a PCIE card reader so it will work just fine)
 * Sleep & Wake (now works with USB mapping)
+* CPU Power Management (1.1 release)
 * iServices (using **this guide: https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html**)
 ## ❌ Not workin'
 * iGPU not working when a dGPU is installed
 * GT1 iGPU (Intel HD Graphics 510 on Celeron G3900T and Pentium G4400T)
 * Realtek Wireless card that came with most of 510-P and 260-P PCs.
-* CPU Power Management (not something important but will be fixed in a future release)
 * **You tell me**
 
 ## FAQ
