@@ -82,7 +82,9 @@ Told ya before. You are definitely a Celeron/Pentium user. Head over to [this pa
 
 Remove `-v keepsyms=1	debug=0x100` from `boot-arg`
 
-And follow [this page](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html#setting-up-opencore-s-gui) for GUI and Boot Chime.
+**Release 1.1** came bundled with GUI. If you want to change the GUI [go here](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html#setting-up-opencore-s-gui)
+
+Follow [this page](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html#setting-up-boot-chime-with-audiodxe) for Boot Chime.
 
 ### iServices just didn't work. What should i do?
 
