@@ -52,7 +52,7 @@ Also, **your Hack can run Minecraft**.
 * USB 2.0 and 3.0 (all)
 * Ethernet
 * Audio
-* SD Card slot (macOS detects it as a normal USB 2.0 device, not a PCIE card reader so it will work just fine)
+* SD Card slot (macOS detects it as a normal USB 2.0 device, not a PCI-E card reader so it will work just fine)
 * Sleep & Wake (now works with USB mapping)
 * CPU Power Management (1.1 release)
 * iServices (using **this guide: https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html**)
