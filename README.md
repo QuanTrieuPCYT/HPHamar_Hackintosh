@@ -56,6 +56,7 @@ Also, **your Hack can run Minecraft**.
 * Sleep & Wake (now works with USB mapping)
 * CPU Power Management (fixed in 1.1 release)
 * iServices (using **this guide: https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html**)
+* Wake on LAN
 ## ❌ Not workin'
 * iGPU not working when a dGPU is installed
 * GT1 iGPU (Intel HD Graphics 510 on Celeron G3900T and Pentium G4400T)
