@@ -57,6 +57,7 @@ Also, **your Hack can run Minecraft**.
 * CPU Power Management (fixed in 1.1 release)
 * iServices (using **this guide: https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html**)
 * Wake on LAN
+* SMBUS (not important but Intel Power Gadget is useless without SMBUS - the frequency is just maxed out on my G4400T)
 ## ❌ Not workin'
 * iGPU not working when a dGPU is installed
 * GT1 iGPU (Intel HD Graphics 510 on Celeron G3900T and Pentium G4400T)
