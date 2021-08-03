@@ -26,7 +26,7 @@ Also, **your Hack can run Minecraft**.
 * **Method 2:** On Windows press Win+R and type `msinfo32.exe` and scroll down til you can see ur BaseBoard Product. If it's 81B4 then congrats!
 
 ## Note:
-* Got VDA Encoder: Failed in Hackintool? You'll need your iGPU to be enabled or use an AMD eGPU and change your SMBIOS to `MacPro1,1`.
+* Got **VDA Encoder: Failed** in (**Hackintool**)[https://github.com/headkaze/Hackintool]? You'll need your iGPU to be enabled or use an AMD eGPU and change your SMBIOS to `MacPro1,1`.
 * iGPU user? Go [here](https://dortania.github.io/OpenCore-Install-Guide/config.plist/skylake.html#add-2) to add your iGPU configuration.
 * Update to the latest BIOS version plz (F.42 Rev.A as of 04/07/2021)
 * G3900T and G4400T users (like me) will need to fakeID their CPU [(this guide here)](https://github.com/QuanTrieuPCYT/HPHamar_Hackintosh/blob/main/FakeID.md), use a discrete GPU supported in macOS (Intel GT1 iGPU on Celeron and Pentium chips won't gonna work in macOS) and will also need to deal with compatibility issues.
