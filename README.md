@@ -95,12 +95,12 @@ Follow [this page](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui
 Follow [this page](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)
 
 ## Credits
-* [Apple](https://apple.com) for macOS
-* [acidanthera](https://github.com/acidanthera) for OpenCore, Lilu, WhateverGreen and AppleALC
-* [Dortania](https://dortania.github.io) for [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide)
-* [RehabMan](https://github.com/RehabMan) for USBInjectAll (without this kext i will not be able to map USB)
-* [headkaze](https://github.com/headkaze) for Hackintool
-* [NVIDIA](https://nvidia.com) for NVIDIA Web Drivers
-* And special thanks to [ozonefire1984](https://www.reddit.com/user/ozonefire1984) (ozonefire#0701) for helping me with the EFI (the fakeCPUID patch and more)!
+* [Apple](https://apple.com) for [**macOS**](https://apple.com/macos)
+* [acidanthera](https://github.com/acidanthera) for [**OpenCore**](https://github.com/acidanthera/OpenCorePkg), [**Lilu**](https://github.com/acidanthera/Lilu), [**WhateverGreen**](https://github.com/acidanthera/WhateverGreen) and [**AppleALC**](https://github.com/acidanthera/AppleALC)
+* [Dortania](https://dortania.github.io) for [**OpenCore Install Guide**](https://dortania.github.io/OpenCore-Install-Guide)
+* [RehabMan](https://github.com/RehabMan) for [**USBInjectAll**](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/) (without this kext i will not be able to map USB)
+* [headkaze](https://github.com/headkaze) for [**Hackintool**](https://github.com/headkaze/Hackintool)
+* [NVIDIA](https://nvidia.com) for [**NVIDIA Web Drivers**](https://www.tonymacx86.com/nvidia-drivers)
+* And special thanks to [**ozonefire1984**](https://www.reddit.com/user/ozonefire1984) (ozonefire#0701) for helping me with the EFI (the fakeCPUID patch and more)!
 
 And yes, have a good day!
