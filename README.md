@@ -1,7 +1,8 @@
 # HP Hamar Motherboard Hackintosh EFI - macOS 10.13+
 OpenCore bootloader (yes, Clover just didn't work) that makes your HP Hamar-powered PC (510-P and 260-P Series) runs macOS High Sierra and up!
 
-![Screen Shot 2021-07-26 at 03 22 27](https://user-images.githubusercontent.com/73286927/126912381-9a32bd51-04a0-4404-b77c-016531467b4c.png)
+![Screen Shot 2021-08-18 at 23 21 22](https://user-images.githubusercontent.com/73286927/129935145-9f14aa0f-1f0a-4104-a31e-c8a4342cfdce.png)
+Up and running for nearly 2 months. Haven't encountered any problems so far.
 
 Also, **your Hack can run Minecraft**.
 
