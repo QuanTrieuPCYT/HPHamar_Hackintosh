@@ -4,6 +4,7 @@ OpenCore bootloader (yes, Clover just didn't work) that makes your HP Hamar-powe
 ![Screen Shot 2021-08-18 at 23 21 22](https://user-images.githubusercontent.com/73286927/129935145-9f14aa0f-1f0a-4104-a31e-c8a4342cfdce.png)
 Up and running for nearly 2 months. Haven't encountered any problems so far.
 
+
 Also, **your Hack can run Minecraft**.
 
 ![Screen Shot 2021-07-21 at 16 24 33](https://user-images.githubusercontent.com/73286927/126465652-c2ff9f2a-b3cf-4186-9d70-820d120d184c.png)
