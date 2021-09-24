@@ -57,7 +57,7 @@ Also, **your Hack can run Minecraft**.
 * Ethernet
 * Audio
 * SD Card slot (macOS detects it as a normal USB 2.0 device, not a PCI-E card reader so it will work just fine)
-* Sleep & Wake (now works with USB mapping)
+* Sleep & Wake works perfectly (with USB mapping and [**GPRW Instant Wake Patch**](https://dortania.github.io/OpenCore-Post-Install/usb/misc/instant-wake.html))
 * CPU Power Management (fixed in 1.1 release)
 * iServices (using **this guide: https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html**)
 * Wake on LAN
