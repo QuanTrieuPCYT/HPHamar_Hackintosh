@@ -19,17 +19,16 @@ Also, **your Hack can run Minecraft**.
 * Ethernet: Realtek RTL8161
 * Audio: Realtek ALC867 (layout-id 11)
 * Expansion Slots: 1x PCI-E (GEN 3) x16 socket and 1x M.2 socket 1, key A
-* 1x HDMI, 2x USB 3.0, 2x USB 2.0 (and another 2x USB 2.0 at the front if HP case is properly installed), 1x VGA (doesn't work in macOS), 1x HDMI, 3x Audio Ports (In, Out and Mic) and 1x Headphone at the front if HP case is properly installed.
+* 1x HDMI, 2x USB 3.0, 2x USB 2.0 (and another 2x USB 2.0 at the front if HP case is properly installed), 1x VGA, 1x HDMI, 3x Audio Ports (In, Out and Mic) and 1x Headphone at the front if HP case is properly installed.
 
 **For more detailed info please visit https://support.hp.com/us-en/document/c05066299**
 
 ## How to check if my motherboard is compatible?
-* **Method 1:** If your HP model name is identical to 510-PXXX(letter) or 260-PXXX(letter) then it's compatible.
-* **Method 2:** On Windows press Win+R and type `msinfo32.exe` and scroll down til you can see ur BaseBoard Product. If it's 81B4 then congrats!
+* On Windows press Win+R and type `msinfo32.exe`. The "System Information" app should pop up, scroll down til you can see ur BaseBoard Product. If it's 81B4 then congrats!
 
 ## Note:
 * Update to the latest BIOS version plz (F.42 Rev.A as of 04/07/2021)
-* G3900T and G4400T users (like me) will need to fakeID their CPU [(this guide here)](https://github.com/QuanTrieuPCYT/HPHamar_Hackintosh/blob/main/FakeID.md). The Intel HD 510 is working in macOS but will have some problems. Switching to a supported dGPU and using the iGPU for Intel Quick Sync is highly recommended!
+* G3900T and G4400T users (like me) will need to fakeID their CPU [(this guide here)](https://github.com/QuanTrieuPCYT/HPHamar_Hackintosh/blob/main/FakeID.md). The Intel HD 510 is working in macOS but you will face some problems. Switching to a supported dGPU and using the iGPU for Intel Quick Sync is highly recommended!
 * The Realtek Wi-Fi card that came with most of these 510-P and 260-P series PCs will not gonna work in macOS, so you'll need another card for wireless functionality (Intel or Broadcom M2 cards).
 * DRM won't work on iGPU-only systems, so you will need a supported dGPU if you want DRM.
 ## Tested hardware:
