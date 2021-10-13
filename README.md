@@ -15,7 +15,7 @@ Also, **your Hack can run Minecraft**.
 * SSID: 81B4
 * Chipset: Intel H170
 * Processor upgrade information: LGA 1151, accept the following CPU upgrades: `G3900T, G4400T, i3-6100T, i5-6400T and i7-6700T`
-* iGPU does not work if a graphics card is installed.
+* ~~iGPU does not work if a graphics card is installed~~ A workaround has been found.
 * Ethernet: Realtek RTL8161
 * Audio: Realtek ALC867 (layout-id 11)
 * Expansion Slots: 1x PCI-E (GEN 3) x16 socket and 1x M.2 socket 1, key A
@@ -28,13 +28,10 @@ Also, **your Hack can run Minecraft**.
 * **Method 2:** On Windows press Win+R and type `msinfo32.exe` and scroll down til you can see ur BaseBoard Product. If it's 81B4 then congrats!
 
 ## Note:
-* Got **VDA Encoder: Failed** in [**Hackintool**](https://github.com/headkaze/Hackintool)? You'll need your iGPU to be enabled or use an AMD eGPU and change your SMBIOS to `MacPro1,1`.
-* iGPU user? Go [here](https://dortania.github.io/OpenCore-Install-Guide/config.plist/skylake.html#add-2) to add your iGPU configuration.
 * Update to the latest BIOS version plz (F.42 Rev.A as of 04/07/2021)
-* G3900T and G4400T users (like me) will need to fakeID their CPU [(this guide here)](https://github.com/QuanTrieuPCYT/HPHamar_Hackintosh/blob/main/FakeID.md), use a discrete GPU supported in macOS (Intel GT1 iGPU on Celeron and Pentium chips won't gonna work in macOS) and will also need to deal with compatibility issues.
+* G3900T and G4400T users (like me) will need to fakeID their CPU [(this guide here)](https://github.com/QuanTrieuPCYT/HPHamar_Hackintosh/blob/main/FakeID.md). The Intel HD 510 is working in macOS but will have some problems. Switching to a supported dGPU and using the iGPU for Intel Quick Sync is highly recommended!
 * The Realtek Wi-Fi card that came with most of these 510-P and 260-P series PCs will not gonna work in macOS, so you'll need another card for wireless functionality (Intel or Broadcom M2 cards).
-* DRM won't work on iGPU-only systems, so you will need a supported dGPU.
-* If your machine came with a dGPU installed, check if it supports macOS, if not then you will need to use your iGPU instead (if it's GT2, GT1 no macOS support as i said earlier). Maxwell and Pascal (maybe Fermi and Tesla) can use their GPU in 10.12 and 10.13 but not 10.14+ and Kepler users can go up to Monterey.
+* DRM won't work on iGPU-only systems, so you will need a supported dGPU if you want DRM.
 ## Tested hardware:
 **HP Pavilion Desktop 510-p007l (My main desktop PC)**
 * CPU: Intel® Pentium® G4400T (fake ID required)
@@ -52,7 +49,8 @@ Also, **your Hack can run Minecraft**.
 * **Runs macOS Catalina & Big Sur & Monterey perfectly.**
 
 ## ✅ Whats workin'
-* Graphics acceleration on GT2 iGPUs (HD 530), dGPU (GTX 1050 on 10.13.6, GTX 650 on Monterey)
+* Full GPU acceleration with HD 530 and supported dGPUs, partial GPU acceleration (with errors) with HD 510
+* Intel Quick Sync with HD 530 and 510 if a dGPU is present
 * USB 2.0 and 3.0 (all)
 * Ethernet
 * Audio
