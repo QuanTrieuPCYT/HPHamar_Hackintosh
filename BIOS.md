@@ -1,5 +1,5 @@
 # Adjusting BIOS
-# In order to get this machine run macOS properly, we need to adjust the BIOS and some of its "hidden" settings.
+# In order to get this machine to run macOS, we need to adjust the BIOS and some of its "hidden" settings.
 
 ## Adjusting the main BIOS settings
 **Enable**
