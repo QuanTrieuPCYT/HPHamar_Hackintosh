@@ -8,7 +8,7 @@ Up and running for nearly 4 months. Haven't encountered any problems so far.
 
 Also, **your Hack can run Minecraft**.
 
-![Screen Shot 2021-07-21 at 16 24 33](https://user-images.githubusercontent.com/73286927/126465652-c2ff9f2a-b3cf-4186-9d70-820d120d184c.png)
+![Screen_Shot_2021-10-08_at_12.png](https://cdn.discordapp.com/attachments/837730842914193408/895905135459438622/Screen_Shot_2021-10-08_at_12.png)
 
 ## Motherboard Specs:
 ![image](https://user-images.githubusercontent.com/73286927/124374625-18f14600-dcc7-11eb-8365-b0313750ff68.png)
