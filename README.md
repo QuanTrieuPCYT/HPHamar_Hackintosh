@@ -6,6 +6,10 @@ OpenCore bootloader (yes, Clover just didn't work) that makes your HP Hamar-powe
 
 Up and running for nearly 4 months. Haven't encountered any problems so far.
 
+![image](https://user-images.githubusercontent.com/73286927/137480958-b14cec6b-6244-4da0-b879-f7d16b66e68c.png)
+
+Graphics acceleration fully working with **GTX 1050** and **Intel HD Graphics 510 (GT1) (Quick Sync)** - Intel Pentium G4400T
+
 Also, **your Hack can run Minecraft**.
 
 ![Screen_Shot_2021-10-08_at_12.png](https://cdn.discordapp.com/attachments/837730842914193408/895905135459438622/Screen_Shot_2021-10-08_at_12.png)
