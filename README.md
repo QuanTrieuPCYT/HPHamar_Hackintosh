@@ -16,7 +16,7 @@ Also, **your Hack can run Minecraft**.
 * SSID: 81B4
 * Chipset: Intel H170
 * Processor upgrade information: LGA 1151, accept the following CPU upgrades: `G3900T, G4400T, i3-6100T, i5-6400T and i7-6700T`
-* ~~iGPU does not work if a graphics card is installed~~ A workaround has been found.
+* ~~iGPU does not work if a graphics card is installed~~ [**A workaround has been found**](/BIOS.md).
 * Ethernet: Realtek RTL8161
 * Audio: Realtek ALC867 (layout-id 11)
 * Expansion Slots: 1x PCI-E (GEN 3) x16 socket and 1x M.2 socket 1, key A
