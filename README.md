@@ -41,7 +41,7 @@ Also, **your Hack can run Minecraft**.
 **HP Pavilion Desktop 510-p007l (My main desktop PC)**
 * CPU: Intel® Pentium® G4400T (fake ID required)
 * RAM: 2x 4GB DDR4 2133MHz
-* GPU: GIGABYTE GTX 1050 2GB
+* GPUs: GIGABYTE GTX 1050 2GB | Intel HD Graphics 510 (Quick Sync)
 * SSD: KingSpec P4-120 120GB SATA SSD (Windows 11)
 * HDD: WD Blue WD10EZEX 1TB
 * **Runs macOS High Sierra (10.13.6) perfectly (with NVIDIA Web Driver).**
@@ -49,13 +49,13 @@ Also, **your Hack can run Minecraft**.
 **HP Slimline Desktop - 260-p026 (ENERGY STAR)**
 * CPU: Intel® Core™ i3-6100T
 * RAM: 2x 8GB DDR4 2133MHz
-* GPU: GTX 650
+* GPUs: GTX 650 | Intel HD Graphics 530 (Quick Sync)
 * SSD: Kingston SSDNow V300 120GB SATA SSD
 * **Runs macOS Catalina & Big Sur & Monterey perfectly.**
 
 ## ✅ Whats workin'
-* Full GPU acceleration with HD 530 and supported dGPUs, partial GPU acceleration (with errors) with HD 510
-* Intel Quick Sync with HD 530 and 510 if a dGPU is present
+* Full GPU acceleration with HD 530 and supported dGPUs, partial GPU acceleration (there will be some graphical glitches) with HD 510
+* Intel Quick Sync with HD 510/530 if a dGPU is present
 * USB 2.0 and 3.0 (all)
 * Ethernet
 * Audio
