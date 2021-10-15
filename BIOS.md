@@ -37,6 +37,7 @@ So yeah, here we are, the hardest part.
 **If your HP uses an i3/i5/i7, you have to disable DummyPowerManagement and delete the content of `Cpuid1Data` and `CPUid1Mask` in `config.plist`.**
 ### iGPU configuration
 Open `config.plist`, head over to `PciRoot(0x0)/Pci(0x2,0x0)`
+
 I will not cover the configuration for your dGPU here, you must **do the research yourself**.
 
 #### If you don't have an external graphics card and you have an i3/i5/i7:
