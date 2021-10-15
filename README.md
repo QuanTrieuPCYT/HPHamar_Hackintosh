@@ -28,7 +28,7 @@ Also, **your Hack can run Minecraft**.
 
 ## Note:
 * Update to the latest BIOS version plz (F.42 Rev.A as of 04/07/2021)
-* G3900T and G4400T users (like me) will need to fakeID their CPU [(this guide here)](https://github.com/QuanTrieuPCYT/HPHamar_Hackintosh/blob/main/FakeID.md).
+* The EFIs on this GitHub was designed to be used with G3900T and G4400T systems. To use with Core i3, i5, i7, you have to disable `DummyPowerManagement` and delete the content of `Cpuid1Data` and `CPUid1Mask` in `config.plist`. For more details about this patch, [(read this guide)](https://github.com/QuanTrieuPCYT/HPHamar_Hackintosh/blob/main/FakeID.md).
 * The Intel HD 510 is working in macOS but you will face some graphical glitches and problem (not really usable). Switching to a supported dGPU and using the iGPU for Intel Quick Sync or switching to a CPU supporting GT2 iGPU are highly recommended!
 * The Realtek Wi-Fi card that came with most of these 510-P and 260-P series PCs will not gonna work in macOS, so you'll need another card for wireless functionality (Intel or Broadcom M2 cards).
 * DRM won't work on iGPU-only systems, so you will need a supported dGPU if you want DRM.
