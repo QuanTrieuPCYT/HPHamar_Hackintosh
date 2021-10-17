@@ -45,7 +45,7 @@ I will not cover the configuration for your dGPU here, you must **do the researc
 
 #### If you don't have an external graphics card and you have a Pentium/Celeron CPU:
 
-**NOTE:** Switching to an i3/i5/i7 or installing a supported dGPU is highly recommended. The integrated GPU of these machines are not officially supported and you will face some graphical glitches and even kernel panics.
+**NOTE:** Switching to an i3/i5/i7 or installing a supported dGPU is highly recommended. The integrated GPU of these machines **is not** officially supported and you will face some graphical glitches and even kernel panics.
 * Add `AAPL,ig-platform-id`, type `Data`, value `01000219`
 * Add `framebuffer-patch-enable`, type `Data`, value `01000000`
 * Add `igfxfw`, type `Data`, value `02000000`
