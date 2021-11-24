@@ -66,8 +66,8 @@ Also, **your Hack can run Minecraft**.
 * Wake on LAN
 * SMBUS (not important but Intel Power Gadget is useless without SMBUS - the frequency is just maxed out on my G4400T)
 ## ❌ Not workin'
-* iGPU not working when a dGPU is installed
-* GT1 iGPU (Intel HD Graphics 510 on Celeron G3900T and Pentium G4400T)
+* ~~iGPU not working when a dGPU is installed~~ Fixed.
+* ~~GT1 iGPU (Intel HD Graphics 510 on Celeron G3900T and Pentium G4400T)~~ Partially fixed, there will be graphical glitches.
 * Realtek Wireless card that came with most of 510-P and 260-P PCs.
 * **You tell me**
 
