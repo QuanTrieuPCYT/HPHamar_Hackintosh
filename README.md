@@ -51,7 +51,7 @@ Also, **your Hack can run Minecraft**.
 * RAM: 2x 8GB DDR4 2133MHz
 * GPUs: GTX 650 | Intel HD Graphics 530 (Quick Sync)
 * SSD: Kingston SSDNow V300 120GB SATA SSD
-* **Runs macOS Catalina & Big Sur & Monterey perfectly.**
+* **Runs macOS Catalina & Big Sur & Monterey (Beta) perfectly.**
 
 ## ✅ Whats workin'
 * Full GPU acceleration with HD 530 and supported dGPUs, partial GPU acceleration (there will be some graphical glitches) with HD 510
