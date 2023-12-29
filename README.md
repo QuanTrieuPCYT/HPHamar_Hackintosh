@@ -81,7 +81,7 @@ I just, don't like Clover. I started Hackintoshing with OpenCore so yeh...
 
 Try using the normal `HfsPlus.efi` or the OC-bundled `OpenHfsPlus.efi`. OpenCore will not boot (Clover also).
 I spent 4 weeks troubleshooting the issue and tried to replace `HfsPlus.efi` with `HfsPlusLegacy.efi` and turned out IT ACTUALLY WORKED!
-Maybe there's a bug that prevents `HfsPlus.efi`/`OpenHfsPlus.efi` from loading, well who knows. Let's just wait for a fix.
+~~Maybe there's a bug that prevents `HfsPlus.efi`/`OpenHfsPlus.efi` from loading, well who knows. Let's just wait for a fix.~~ Might be something odd with RDRAND support, will look into this later.
 
 ### Can't use sleep and my CPU on my hack shows "Unknown"
 
